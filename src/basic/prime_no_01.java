@@ -8,18 +8,20 @@ public class prime_no_01 {
         System.out.println("Enter a number: ");
         int t = scn.nextInt();
         int count = 0;
-
-        for (int div = 1; div * div <= t; div++) {
-            if (t % div == 0) {
+        for(int div =2;div*div<=t;div++){
+            if(t%div==0){
                 count++;
-                // Check if div is not the same as t/div to count both divisors
-                if (div != t / div) {
-                    count++;
-                }
+                break;
+
             }
+
         }
 
-        if (count == 2) {
+
+
+
+
+        if (count == 0) {
             System.out.println("This is a prime number");
         } else {
             System.out.println("Not a prime number");
