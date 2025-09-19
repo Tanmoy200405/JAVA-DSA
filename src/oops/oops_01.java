@@ -7,8 +7,8 @@ class Boxdemo{
 
 public class oops_01 {
     public static void main(String[] args){
-        Box myBox1 = new Box();
-        Box myBox2 = new Box();
+        Boxdemo myBox1 = new Boxdemo();
+        Boxdemo myBox2 = new Boxdemo();
 
 
         //mybox1 property

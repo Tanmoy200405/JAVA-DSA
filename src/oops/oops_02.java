@@ -6,9 +6,10 @@ class Box{
     double depth;
 
     //methods
-    void volume(){
+    double volume(){
         double vol = height*width*depth;
         System.out.println("Volume is: "+vol);
+        return vol;
     }
 }
 
