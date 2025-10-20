@@ -73,8 +73,8 @@ public class patternprin {
 
     static void pattern5(int n) {
         for(int row = 1;row<=2*n -1;row++){
-            int tc =
-            for(int col = 1;col<=tc;col++){
+
+            for(int col = 1;col<=1;col++){
                 System.out.print("*");
             }
             System.out.println();
